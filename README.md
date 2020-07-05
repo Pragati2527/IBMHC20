@@ -1,4 +1,5 @@
 # IBMHC20
+
 COVID-19 Tracker and Sentiment Analyzer
 
 Background
@@ -9,3 +10,4 @@ The aim of this project is to create an ineractive web based COVID-19 Tracker an
 
 About the Project
 This website was built using React and also uses mapbox to show maps layered by the the markers having tooltips showing the current status due to COVID-19. Website uses ChartJS to represent data fetched using axios form NovelCOVID API. Apart from just representing data fetched from API in charts, this Website also done Sentiment Analysis over the tweets of people for span of 30 days to learn more about imapct of COVID-19 on us. The sentiment analysis is done over 300,000 tweets globaly and has been represented interactively using line graphs and Pie Chart.
+
