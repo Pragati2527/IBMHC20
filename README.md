@@ -41,10 +41,15 @@ This will lead to increase the mutual understanding and harmony between governme
 **Technology Stack**
 
 _Frontend_:  A simple user friendly webpage will be created by using HTML, CSS and JavaScript for the convenience of the user. The user has to put their desired time period for the sentiment analysis on COVID19 or for the sentiments of LOCKDOWN extension tweets and after that just click on given START button.
+
 ![ct6](https://user-images.githubusercontent.com/52466713/86533152-a18aaa00-beec-11ea-83c7-ae8636fd351c.png)
+
 _Backend_:  After clicking on START button the command has been transferred to the to the localhost server i.e our python algorithms. It will fetch the tweets related to COVID19 for this we use twitter API configuration .Now after fetching, Tokenization, filtration/Cleaning, removing stop words and Classification of tweets proceeded by using the python algorithm which is applied at the backend and then it generates the output sentiments with the help of three variables positive, negative and neutral then return these values to the webpage.
+
 ![ct4](https://user-images.githubusercontent.com/52466713/86532907-ee6d8100-beea-11ea-8a0a-ef4d6fa87c74.png)
+
 For visualization a horizontal bar graph will be generated on the webpage according to the received data from backend regarding the sentiments of COVID19 or the LOCKDOWN extension
+
 **Technologies & Tools**	: Python 3, IBM Watson Studio, IBM Cloud for Deployment, Any Web frameworks.
 
 **Scope of Work**
