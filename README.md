@@ -1,14 +1,22 @@
 # IBMHC20
 
-COVID-19 Tracker and Sentiment Analyzer
+#Sentiment Analysis of COVID-19 Tweets – Visualization Dashboard
 ![ct](https://user-images.githubusercontent.com/52466713/86532273-48b81300-bee6-11ea-9f24-138e908ef400.png)
 ![ct2](https://user-images.githubusercontent.com/52466713/86532331-b95f2f80-bee6-11ea-81d2-2faf372b8946.png)
-Background
-The recent outbreak of coronavirus disease (COVID-19) has fabricated a global health crisis that has had a deep impact on the way we perceive our everyday lives and changed humans on the fundamental ideological level. The alarming levels of spread and severity forced more than 100 countries to impose partial or full lockdown. The cost of Human life is not comparable to anything in and beyond this world. The phycological damage is also stupendous. This crisis has helped us to learn that we become the top tier species in this world by the virtue of the power of collaboration. This crisis makes us realize that we have to play along with others in this game to survive and win. The divide of boundries became narrow, We shared knowledge and technologies to fight a common enemy that has threatened our existence. The sense of empathy and togetherness has been escalated among us. In this time of the global pandemic, We realized that the stories of heroes who aid people in pain and agony are true. This outbreak of COVID-19 has encouraged us to achieve extraordinary things in this extraordinary time and came out victorious and as a better version of ourselves.
+#Background	
+The severe outbreak of Covid-19 pandemic has affected many countries across the world, and disrupted the day to day activities of many people. During such outbreaks, understanding the emotional state of citizens of a country could be of interest to various organizations to carry out tasks and to take necessary measures. Several studies have been performed on data available on various social media platforms and websites to understand the emotions of people against many events, inclusive of Covid-19, across the world. Twitter and other social media platforms have been bridging the gap between the citizens and government in various countries and areof more prominence in India. 
+The sentiment analysis of Indians after the extension of lockdown announcements to be analyzed with the relevant #tags on twitter and build a predictive analytics model to understand the behavior of people if the lockdown is further extended.Also develop a dashboard with visualization of people reaction to the govt announcements on lockdown extension.
 
-Aim of the Project
-The aim of this project is to create an ineractive web based COVID-19 Tracker and Sentiment Analyser. The primary goal is to develop a space where everyone can visualize the impact of COVID-19 on human society in easy and simpler way.This app helps to realize how the sentiment of people changes during this time of COVID-19.It will enable visitors to learn impact of COVID-19 by interacting with graphs,maps,charts and other interactive elements as they proceed through the web app.
+#Aim of the Project
+The aim of this project is to create an ineractive web based COVID-19 Sentiment Analyser. The primary goal is to develop a space where everyone can visualize the impact of COVID-19 on human society in easy and simpler way.This helps to realize how the sentiment of people changes during this time of COVID-19.It will enable visitors to learn impact of COVID-19 by interacting with graphs,maps,charts and other interactive elements as they proceed through the web.
+To develop a twitter sentiment analysis model to understand the following:
+1. Get to know people’s sentiment towards the epidemic
+2. Understand the sentiments of people on govt. decision to extend the lockdown
 ![ct3](https://user-images.githubusercontent.com/52466713/86532358-ec092800-bee6-11ea-8ce5-2c5c30a80af2.png)
-About the Project
+ Twitter and other social media platforms have been bridging the gap between the citizens and government in various countries and are of more prominence in India. Sentiment Analysis of posts on twitter is observed to accurately reveal the sentiments. Analysing real time posts on twitter in India during Covid-19, could help in identifying the mood of the nation.
+ 
+#About the Project
 This website was built using React and also uses mapbox to show maps layered by the the markers having tooltips showing the current status due to COVID-19. Website uses ChartJS to represent data fetched using axios form NovelCOVID API. Apart from just representing data fetched from API in charts, this Website also done Sentiment Analysis over the tweets of people for span of 30 days to learn more about imapct of COVID-19 on us. The sentiment analysis is done over 300,000 tweets globaly and has been represented interactively using line graphs and Pie Chart.
+We deploy IBM Cloud Platform.
+
 
