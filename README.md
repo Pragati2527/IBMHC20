@@ -1,5 +1,5 @@
 # IBMHC20
-
+![ibm](https://user-images.githubusercontent.com/52466713/86533229-39889380-beed-11ea-8bb2-a080706ee629.png)
 **Sentiment Analysis of COVID-19 Tweets – Visualization Dashboard**
 ![ct](https://user-images.githubusercontent.com/52466713/86532273-48b81300-bee6-11ea-9f24-138e908ef400.png)
 ![ct2](https://user-images.githubusercontent.com/52466713/86532331-b95f2f80-bee6-11ea-81d2-2faf372b8946.png)
