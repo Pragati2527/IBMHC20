@@ -18,14 +18,16 @@ _2. Understand the sentiments of people on govt. decision to extend the lockdown
 Twitter and other social media platforms have been bridging the gap between the citizens and government in various countries and are of more prominence in India. Sentiment Analysis of posts on twitter is observed to accurately reveal the sentiments. Analysing real time posts on twitter in India during Covid-19, could help in identifying the mood of the nation.
 
 **Idea General Description**
+It is live dashboard of streamed twitter tweets, filtered by your own key words with applying sentiment analysis of tweets. Sentiment analysis is for classifying on positve and negative tweets. Store them in local database, and then creates a dashbord with live charts.
+
 Twitter is a micro blogging and social networking service on which users post and interact with messages known as "tweets". It’s a great platform to exchange such great Ideas. 
 As now the World is struggling to deal with pandemic disease called Novel Coronavirus (COVID-19). During this lockdown period, people have taken social networks as the medium to express their feelings and find a way to calm themselves down.
 In our proposed idea a country wise sentiment analysis of the tweets related to COVID-19 will be done by using python algorithms which is running as at backend server. In this, tweets from all countries will be gathered at a particular time duration , and which are related to COVID19 in some or the other way. It will analyse how the citizens of different countries are dealing with this situation. The tweets will be collected, pre-processed, and then used for text mining and sentiment analysis with the help of python libraries like tweepy, nltk, pandas data frame, textblob and some more.
-The output will be represented in the form of Visual Dashboard on a proposed webpage that’ll display how the people throughout the world are taking this COVID-19.Positive , negative and Neutral approaches ,also the instances of fear, sadness and disgust all will be represented in it.
 
-This website was built using React and also uses mapbox to show maps layered by the the markers having tooltips showing the current status due to COVID-19. Website uses ChartJS to represent data fetched using axios form NovelCOVID API. Apart from just representing data fetched from API in charts, this Website also done Sentiment Analysis over the tweets of people for span of 30 days to learn more about imapct of COVID-19 on us. The sentiment analysis is done over 300,000 tweets globaly and has been represented interactively using line graphs and Pie Chart.
-
-![ct5](https://user-images.githubusercontent.com/52466713/86532908-f0374480-beea-11ea-81f7-a91a7a7d36e4.png)
+->Historical scatter moving average chart. With dynamic historical window size.
+->Pie chart, which shows positive/negative partition by count. Also availble to control historical period.
+->Live table with tweets.
+->Possible to change list of 'key words', in Config.py
 
 **Novelty**
 
@@ -42,15 +44,15 @@ This will lead to increase the mutual understanding and harmony between governme
 
 _Frontend_:  A simple user friendly webpage will be created by using HTML, CSS and JavaScript for the convenience of the user. The user has to put their desired time period for the sentiment analysis on COVID19 or for the sentiments of LOCKDOWN extension tweets and after that just click on given START button.
 
-![ct6](https://user-images.githubusercontent.com/52466713/86533152-a18aaa00-beec-11ea-83c7-ae8636fd351c.png)
-
 _Backend_:  After clicking on START button the command has been transferred to the to the localhost server i.e our python algorithms. It will fetch the tweets related to COVID19 for this we use twitter API configuration .Now after fetching, Tokenization, filtration/Cleaning, removing stop words and Classification of tweets proceeded by using the python algorithm which is applied at the backend and then it generates the output sentiments with the help of three variables positive, negative and neutral then return these values to the webpage.
 
 ![ct4](https://user-images.githubusercontent.com/52466713/86532907-ee6d8100-beea-11ea-8a0a-ef4d6fa87c74.png)
 
 For visualization a horizontal bar graph will be generated on the webpage according to the received data from backend regarding the sentiments of COVID19 or the LOCKDOWN extension
 
-**Technologies & Tools**	: Python 3, IBM Watson Studio, IBM Cloud for Deployment, Any Web frameworks.
+**Technologies & Tools**	:  Python 3.6,pandas,threading,sqlite3,textblob,tweepy,plotly,dash,dash-html-components,dash-core-componentsIBM Watson Studio, IBM Cloud for Deployment, Any Web frameworks.
+
+**Live dashboard example**:
 
 **Scope of Work**
 
