@@ -48,8 +48,6 @@ _Frontend_:  A simple user friendly webpage will be created by using HTML, CSS a
 
 _Backend_:  After clicking on START button the command has been transferred to the to the localhost server i.e our python algorithms. It will fetch the tweets related to COVID19 for this we use twitter API configuration .Now after fetching, Tokenization, filtration/Cleaning, removing stop words and Classification of tweets proceeded by using the python algorithm which is applied at the backend and then it generates the output sentiments with the help of three variables positive, negative and neutral then return these values to the webpage.
 
-For visualization a horizontal bar graph will be generated on the webpage according to the received data from backend regarding the sentiments of COVID19 or the LOCKDOWN extension
-
 **Technologies & Tools**	
 
 Python 3.6,pandas,threading,sqlite3,textblob,tweepy,plotly,dash,dash-html-components,dash-core-componentsIBM Watson Studio, IBM Cloud for Deployment, Any Web frameworks.
