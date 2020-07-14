@@ -13,6 +13,7 @@ The aim of this project is to create an ineractive web based COVID-19 Sentiment 
 To develop a twitter sentiment analysis model to understand the following:
 
 _1. Get to know people’s sentiment towards the epidemic_
+
 _2. Understand the sentiments of people on govt. decision to extend the lockdown_
 
 Twitter and other social media platforms have been bridging the gap between the citizens and government in various countries and are of more prominence in India. Sentiment Analysis of posts on twitter is observed to accurately reveal the sentiments. Analysing real time posts on twitter in India during Covid-19, could help in identifying the mood of the nation.
@@ -53,7 +54,8 @@ For visualization a horizontal bar graph will be generated on the webpage accord
 
 Python 3.6,pandas,threading,sqlite3,textblob,tweepy,plotly,dash,dash-html-components,dash-core-componentsIBM Watson Studio, IBM Cloud for Deployment, Any Web frameworks.
 
-**Live dashboard example**:
+**Live dashboard example**
+
 
 **Scope of Work**
 
