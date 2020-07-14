@@ -27,9 +27,12 @@ As now the World is struggling to deal with pandemic disease called Novel Corona
 In our proposed idea a country wise sentiment analysis of the tweets related to COVID-19 will be done by using python algorithms which is running as at backend server. In this, tweets from all countries will be gathered at a particular time duration , and which are related to COVID19 in some or the other way. It will analyse how the citizens of different countries are dealing with this situation. The tweets will be collected, pre-processed, and then used for text mining and sentiment analysis with the help of python libraries like tweepy, nltk, pandas data frame, textblob and some more.
 
 ->Historical scatter moving average chart. With dynamic historical window size.
+
 ->Pie chart, which shows positive/negative partition by count. Also availble to control historical period.
+
 ->Live table with tweets.
-->Possible to change list of 'key words', in Config.py
+
+*Possible to change list of 'key words', in Config.py
 
 **Novelty**
 
