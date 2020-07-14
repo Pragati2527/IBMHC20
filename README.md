@@ -3,6 +3,7 @@
 ![ct](https://user-images.githubusercontent.com/52466713/86532273-48b81300-bee6-11ea-9f24-138e908ef400.png)
 
 **Background**
+
 The severe outbreak of Covid-19 pandemic has affected many countries across the world, and disrupted the day to day activities of many people. During such outbreaks, understanding the emotional state of citizens of a country could be of interest to various organizations to carry out tasks and to take necessary measures. Several studies have been performed on data available on various social media platforms and websites to understand the emotions of people against many events, inclusive of Covid-19, across the world. Twitter and other social media platforms have been bridging the gap between the citizens and government in various countries and areof more prominence in India. 
 The sentiment analysis of Indians after the extension of lockdown announcements to be analyzed with the relevant #tags on twitter and build a predictive analytics model to understand the behavior of people if the lockdown is further extended.Also develop a dashboard with visualization of people reaction to the govt announcements on lockdown extension.
 
@@ -16,6 +17,7 @@ _2. Understand the sentiments of people on govt. decision to extend the lockdown
 Twitter and other social media platforms have been bridging the gap between the citizens and government in various countries and are of more prominence in India. Sentiment Analysis of posts on twitter is observed to accurately reveal the sentiments. Analysing real time posts on twitter in India during Covid-19, could help in identifying the mood of the nation.
 
 **Idea General Description**
+
 It is live dashboard of streamed twitter tweets, filtered by your own key words with applying sentiment analysis of tweets. Sentiment analysis is for classifying on positve and negative tweets. Store them in local database, and then creates a dashbord with live charts.
 
 Twitter is a micro blogging and social networking service on which users post and interact with messages known as "tweets". It’s a great platform to exchange such great Ideas. 
@@ -48,7 +50,9 @@ _Backend_:  After clicking on START button the command has been transferred to t
 
 For visualization a horizontal bar graph will be generated on the webpage according to the received data from backend regarding the sentiments of COVID19 or the LOCKDOWN extension
 
-**Technologies & Tools**	:  Python 3.6,pandas,threading,sqlite3,textblob,tweepy,plotly,dash,dash-html-components,dash-core-componentsIBM Watson Studio, IBM Cloud for Deployment, Any Web frameworks.
+**Technologies & Tools**	
+
+Python 3.6,pandas,threading,sqlite3,textblob,tweepy,plotly,dash,dash-html-components,dash-core-componentsIBM Watson Studio, IBM Cloud for Deployment, Any Web frameworks.
 
 **Live dashboard example**:
 
