@@ -32,7 +32,7 @@ In our proposed idea a country wise sentiment analysis of the tweets related to 
 
 ->Live table with tweets.
 
-*Possible to change list of 'key words', in Config.py
+->Possible to change list of 'key words', in Config.py
 
 **Novelty**
 
