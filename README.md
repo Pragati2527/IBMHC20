@@ -1,7 +1,6 @@
 # IBMHC20
 **Sentiment Analysis of COVID-19 Tweets – Visualization Dashboard**
 ![ct](https://user-images.githubusercontent.com/52466713/86532273-48b81300-bee6-11ea-9f24-138e908ef400.png)
-![ct2](https://user-images.githubusercontent.com/52466713/86532331-b95f2f80-bee6-11ea-81d2-2faf372b8946.png)
 
 **Background**
 The severe outbreak of Covid-19 pandemic has affected many countries across the world, and disrupted the day to day activities of many people. During such outbreaks, understanding the emotional state of citizens of a country could be of interest to various organizations to carry out tasks and to take necessary measures. Several studies have been performed on data available on various social media platforms and websites to understand the emotions of people against many events, inclusive of Covid-19, across the world. Twitter and other social media platforms have been bridging the gap between the citizens and government in various countries and areof more prominence in India. 
@@ -13,7 +12,6 @@ The aim of this project is to create an ineractive web based COVID-19 Sentiment 
 To develop a twitter sentiment analysis model to understand the following:
 _1. Get to know people’s sentiment towards the epidemic_
 _2. Understand the sentiments of people on govt. decision to extend the lockdown_
-![ct3](https://user-images.githubusercontent.com/52466713/86532358-ec092800-bee6-11ea-8ce5-2c5c30a80af2.png)
 
 Twitter and other social media platforms have been bridging the gap between the citizens and government in various countries and are of more prominence in India. Sentiment Analysis of posts on twitter is observed to accurately reveal the sentiments. Analysing real time posts on twitter in India during Covid-19, could help in identifying the mood of the nation.
 
