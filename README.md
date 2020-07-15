@@ -1,6 +1,6 @@
 # IBMHC20
 **Sentiment Analysis of COVID-19 Tweets – Visualization Dashboard**
-![1_vp1M37AGMOFwCvLxVm62IA](https://user-images.githubusercontent.com/52466713/87547928-6e54d180-c6c9-11ea-917b-17cbe98752bb.jpeg
+![1_vp1M37AGMOFwCvLxVm62IA](https://user-images.githubusercontent.com/52466713/87548081-a0663380-c6c9-11ea-858c-20246ca1c6b5.jpeg)
 
 **Background**
 
@@ -63,4 +63,4 @@ Python 3.6,pandas,threading,sqlite3,textblob,tweepy,plotly,dash,dash-html-compon
 The proposed idea has implemented on the local host by using FLASK web framework so it can be accessible in that particular system only. But doing further some more research it could work on live cloud servers like IBM cloud and would make it easily accessible across the globe through world wide web services in any platform and devices. 
 Also we can add options like to perform sentiment analysis on any other topics just by typing the keyword of it. Also more effective types of dashboard visualization can be plotted.
 Also it’s essential to identify fake tweets as well to stop the spreading of false information among people.
-![1_vp1M37AGMOFwCvLxVm62IA](https://user-images.githubusercontent.com/52466713/87547928-6e54d180-c6c9-11ea-917b-17cbe98752bb.jpeg
+![1_vp1M37AGMOFwCvLxVm62IA](https://user-images.githubusercontent.com/52466713/87548081-a0663380-c6c9-11ea-858c-20246ca1c6b5.jpeg)
