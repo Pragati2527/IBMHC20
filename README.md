@@ -56,7 +56,7 @@ _Backend_:  After clicking on START button the command has been transferred to t
 
 **Technologies & Tools**	
 
-Python 3.6,pandas,threading,sqlite3,textblob,tweepy,plotly,dash,dash-html-components,dash-core-componentsIBM Watson Studio, IBM Cloud for Deployment, Any Web frameworks.
+Python 3.6,pandas,threading,sqlite3,textblob,tweepy,plotly,dash,dash-html-components,dash-core-componentsIBM Watson Studio, Herokuapp  Deployment , Any Web frameworks.
 
 **Live dashboard example**
 
